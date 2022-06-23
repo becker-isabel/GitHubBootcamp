@@ -3,12 +3,12 @@ name: GitHub Actions Demo
 on: 
   push:
     branches: 
-    - main
+      - main
     paths-ignore: 
-    - .github
+      - .github
   pull_request:
     branches: 
-    - main
+      - main
   schedule:
     - cron: 15 6 * * SUN
   workflow_dispatch:
